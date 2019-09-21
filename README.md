@@ -38,9 +38,13 @@ mysql -u youruser -p Loggin < Loggin/Users.sql
 ```
 
 ### Step 4
-change the "root" by "youruser" and "021$" by "yourpass" in the Loggin/class/Connection.php 
+```
+nano Loggin/class/Connection.php 
+```
+change the "root" by "youruser" and "021$" by "yourpass".
 
 ### Step 5
-Loggin with user "foo" and password "021$$"
+
+Go to Chrome loggin with user "foo" and password "021$$"
 
 Finish tutorial.
