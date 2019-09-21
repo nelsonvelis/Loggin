@@ -14,7 +14,7 @@ apt install git
 ### Step 1
 Go to /var/www/html/ and clone the project
 ```
-git clone https://github.com/allexsv/Loggin.git
+https://github.com/allexiusw/Loggin.git
 ```
 
 ### Step 2
