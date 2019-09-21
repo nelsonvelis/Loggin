@@ -11,8 +11,13 @@ Proyecto Loggin whit Bootstrap, POO, PDO, Singleton, Dependency Injection, DAO a
 apt install git 
 ```
 
+### Step 0.5
+```
+cd /var/www/html/
+```
+
 ### Step 1
-Go to /var/www/html/ and clone the project
+Clone the project
 ```
 https://github.com/allexiusw/Loggin.git
 ```
