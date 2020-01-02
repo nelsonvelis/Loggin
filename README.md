@@ -1,5 +1,13 @@
 # Loggin
 Proyecto Loggin whit Bootstrap, POO, PDO, Singleton, Dependency Injection, DAO and VO.
+
+## Using Docker
+docker pull allexiusw/hub-server:latest
+docker run -it-d --name hub_server -p 777:80 docker.io/allexiusw/hub-server
+docker exec -it hub_server bash
+
+## Legacy Installation
+
 ### Requirements
 * Apache2
 * PHP7.0
