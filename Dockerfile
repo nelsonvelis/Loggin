@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 MAINTAINER William V. "william.al1979@gmail.com"
 RUN apt-get update; apt-get install -y apache2 php libapache2-mod-php git
-RUN sed -i 's_DocumentRoot /var/www/html_DocumentRoot /var/www/html/Loggin/_' /etc/apache2/sites-enabled/000-d$
+RUN sed -i 's_DocumentRoot /var/www/html_DocumentRoot /var/www/html/Loggin/_' /etc/apache2/sites-enabled/000-default.conf
 RUN useradd -m -d /home/allex -s /bin/bash allex
 SHELL ["/bin/bash", "-c"]
 ENV APP=/var/www/html/
